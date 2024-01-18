@@ -5,16 +5,16 @@
 # Name of your site (displayed in the header)
 name: "Yixuan Qin's Blog"
 # Short bio or description (displayed in the header)
-description: ""
+description: "山月不知心里事，水风空落眼前花"
 
 #
 # Flags below are optional
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png
+avatar: https://github.com/ymake1/ymake1.github.io/raw/master/images/liukanshan.jpg
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/favicon.ico
+favicon: https://github.com/ymake1/ymake1.github.io/raw/master/images/zhisuanxuebu.png
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -37,25 +37,25 @@ excerpt_separator: <!-- more -->
 # Includes an icon in the footer for each username you enter
 footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
-  behance: # https://www.behance.net/<username>
-  dribbble:
-  #zhihu: ning-meng-cheng-31-94
+  #behance: # https://www.behance.net/<username>
+  #dribbble:
+  #zhihu: 少女摘星辰
   email: wait_er@tju.edu.cn
-  facebook:
-  flickr:
+  #facebook:
+  #flickr:
   github: waiterLoveScript 
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  tumblr: # https://<username>.tumblr.com
+  #googleplus: # anything in your profile username that comes after plus.google.com/
+  #instagram:
+  #linkedin:
+  #pinterest:
+  #rss: # just type anything here for a working RSS icon
+  #stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  #tumblr: # https://<username>.tumblr.com
   #twitter: frommidworld
-  youtube:
+  #youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2019 lemon
+footer-text: Copyright (c) 2024 LoveScript
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -65,15 +65,15 @@ disqus: # fromendworld
 gitalk:
   clientID: bd65d5c0df878155b7fa
   clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
-  repo: lemonchann.github.io
-  owner: lemonchann
+  repo: ymake1.github.io
+  owner: ymake1
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://lemonchann.github.io
+url: https://ymake1.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
