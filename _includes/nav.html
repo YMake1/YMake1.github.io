@@ -1,3 +1,11 @@
+<head>
+  <style>
+    .site-avatar img {
+      filter: url(#filter);
+    }
+  </style>
+</head>
+
 <div class="wrapper-sidebar">
   <header class="sidebar clearfix">
     <div class="site-info">
@@ -27,3 +35,45 @@
     </footer>
   </div>
 </div>
+
+<svg style="display: none;">
+  <defs>
+    <filter id="filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+      <feTurbulence type="turbulence" baseFrequency="0 0.5" numOctaves="2" seed="2" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="turbulence"/>
+      <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="20" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" result="displacementMap"/>
+    </filter>
+  </defs>
+</svg>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/gsap/3.11.5/gsap.js"></script>
+  <script>
+    const tur = document.querySelector('feTurbulence');
+    const tl = gsap.timeline({
+        paused: true,
+        onUpdate: () => {
+            tur.setAttribute('baseFrequency', `0 ${val.freq}`);
+        }
+    });
+    const val = {
+        freq: 0.00001
+    };
+    tl.to(val, {
+        freq: 0.5,
+        duration: 0.1
+    })
+    tl.to(val, {
+        freq: 0.00001,
+        duration: 0.1
+    })
+    const img = document.querySelector('img');
+    if(img.complete)
+    {
+        tl.play();
+    }
+    else
+    {
+        img.addEventListener('load', () => {
+            tl.play();
+        })
+    }
+  </script>
