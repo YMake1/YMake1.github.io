@@ -12,9 +12,9 @@ description: "山月不知心里事，水风空落眼前花"
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/ymake1/ymake1.github.io/raw/master/images/liukanshan.jpg
+avatar: https://ymake1.github.io/images/liukanshan.jpg
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://github.com/ymake1/ymake1.github.io/raw/master/images/zhisuanxuebu.png
+favicon: https://ymake1.github.io/images/zhisuanxuebu.png
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -63,8 +63,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: bd65d5c0df878155b7fa
-  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
+  clientID: 39760c2797eace3ecb07
+  clientSecret: 7e84e4222a569dc44eea5afdde5bded33e15b888
   repo: ymake1.github.io
   owner: ymake1
 
